@@ -1,0 +1,36 @@
+.footer__link{
+    margin-right: 18px;
+font-weight: normal;
+font-size: 24px;
+line-height: 41px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .footer__link{
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 375px){
+.footer__links{
+    display: flex;
+    flex-direction: column;
+}
+
+    .footer__link{
+        margin-bottom: 48px;
+        font-size: 24px;
+
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .footer__link{
+        font-size: 24px;
+    }
+}

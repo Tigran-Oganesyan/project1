@@ -1,0 +1,28 @@
+.intro__content-row{
+    margin-top: 35px;
+    display: flex;
+    width: 984px;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 768px){
+
+    .intro__content-row{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .intro__content-row{
+        width: 343px;
+        font-size: 16px;
+line-height: 27px;
+
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro__content-row{
+        width: 288px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url(./__langs/header__langs.css);
+@import url(./__logo/header__logo.css);
+
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1184px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        width:928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        width:720px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header{
+        width:343px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .header{
+        width:288px;
+    }
+}

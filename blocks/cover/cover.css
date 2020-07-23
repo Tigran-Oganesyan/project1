@@ -1,0 +1,48 @@
+@import url(./__bg/cover__bg.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+
+
+.cover{
+    margin-top: 102px;
+    width: 1184px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+margin-right: auto;
+    color: #FFFDFD;
+    height: 594px;
+}
+
+.cover:hover{
+    background: black;
+}
+
+@media screen and (max-width: 1024px){
+    .cover{
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover{
+        width: 768px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .cover{
+        margin-top: 48px;
+        width: 375px;
+        height: 272px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover{
+        width: 320px;
+        height: 216px;
+    }
+}

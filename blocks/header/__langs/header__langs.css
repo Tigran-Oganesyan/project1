@@ -1,0 +1,12 @@
+@import url(./__lang/langs__lang.css);
+
+.header__langs{
+    display: flex;
+}
+
+@media screen and (max-width: 375px){
+    .header__langs{
+        margin: 0;
+        margin-top: 21px;
+    }
+}

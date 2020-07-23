@@ -1,0 +1,16 @@
+@import url(./__container-item-heading/additional__container-item-heading.css);
+@import url(./__container-item-item-bg/additional__container-item-item-bg.css);
+@import url(./__container-item-text/additional__container-item-text.css);
+@import url(./__container-item/additional__container-item.css);
+@import url(./__container/additional__container.css);
+
+.additional{
+ display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 102px;
+color: #FFFFFF;
+}

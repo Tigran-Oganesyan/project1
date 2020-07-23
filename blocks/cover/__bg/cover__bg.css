@@ -1,0 +1,35 @@
+.cover__bg{
+    position:absolute;
+    width: 1184px;
+    height: 594px;
+opacity: 0.3;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .cover__bg{
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__bg{
+        width: 768px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .cover__bg{
+        width: 375px;
+        height: 272px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .cover__bg{
+        width: 320px;
+        height: 216px;
+    }
+}

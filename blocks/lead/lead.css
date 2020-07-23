@@ -1,0 +1,74 @@
+@import url(./__caption/lead__caption.css);
+@import url(./__img/lead__img.css);
+
+
+.lead{
+    margin-top: 60px;
+    margin-left: auto;
+margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 985px;
+    color: #FFFFFF;
+}
+
+.section-title{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    max-width: 782px;
+font-weight: 900;
+font-size: 96px;
+line-height: 93px;
+text-align: center;
+}
+
+.section-subtitle{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    max-width: 583px;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+.lead{
+    width: 928px;
+}
+}
+
+@media screen and (max-width: 768px){
+    .lead{
+        width: 768px;
+    }
+    }
+
+    @media screen and (max-width: 375px){
+        .lead{
+            margin-top: 31px;
+            width: 375px;
+        }
+        .section-title{
+            width: 343px;
+            font-size: 40px;
+            line-height: 44px;
+        }
+        .section-subtitle{
+            margin-top: 8px;
+            width: 343px;
+            font-size: 16px;
+            line-height: 23px;
+        }
+    }
+
+
+        @media screen and (max-width: 320px){
+            .lead{
+                width: 320px;
+            }
+            }

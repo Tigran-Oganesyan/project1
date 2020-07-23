@@ -1,0 +1,42 @@
+.video__item{
+    margin: 0;
+    height: 323px;
+    width: 583px;
+    color: #FFFFFF;
+    text-decoration: none;
+} 
+
+.video__item:hover{
+    background: #000000;
+
+}
+
+
+@media screen and (max-width: 1024px){
+    .video__item{
+        width: 456px;
+        height: 288px;
+    }
+ }
+
+ @media screen and (max-width: 768px){
+    .video__item{
+        width: 352px;
+        height: 200px;
+    }
+ }
+
+ @media screen and (max-width: 375px){
+    .video__item{
+        margin-bottom: 8px;
+        width: 343px;
+        height: 200px;
+    }
+ }
+
+ @media screen and (max-width: 320px){
+    .video__item{
+        width: 288px;
+        height: 192px;
+    }
+ }

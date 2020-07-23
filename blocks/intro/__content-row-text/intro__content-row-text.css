@@ -1,0 +1,12 @@
+.intro__content-row-text{
+    width: 683px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 375px){
+    .intro__content-row-text{
+        width: 343px;
+    }
+}

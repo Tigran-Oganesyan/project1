@@ -1,0 +1,90 @@
+@import url(./__container/video__container.css);
+@import url(./__item-duration/video__item-duration.css);
+@import url(./__item-icon-play/video__item-icon-play.css);
+@import url(./__item-item-bg/video__item-item-bg.css);
+@import url(./__item-subtitle/video__item-subtitle.css);
+@import url(./__item-title/video__item-title.css);
+@import url(./__item/video__item.css);
+
+.video{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1184px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+color: #FFFFFF;
+}
+
+.content-title{
+    margin: 0;
+    width: 800px;
+font-weight: 900;
+font-size: 72px;
+line-height: 78px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.content-subtitle{
+    margin: 0;
+    margin-top: 48px;
+    width: 640px;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+color: #FFFFFF;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+@media screen and (max-width: 1024px){
+   .video{
+       width: 928px;
+   }
+}
+
+@media screen and (max-width: 768px){
+    .video{
+        width: 720px;
+    }
+    .content-title{
+        font-size: 42px;
+line-height: 46px;
+    }
+ }
+
+ @media screen and (max-width: 375px){
+    .video{
+        margin-top: 24px;
+        width: 343px;
+    }
+    .content-title{
+        width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .content-subtitle{
+        width: 343px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+ }
+
+
+ @media screen and (max-width: 320px){
+    .video{
+        margin-top: 24px;
+        width: 288px;
+    }
+    .content-title{
+        width: 288px;
+    }
+    .content-subtitle{
+        width: 288px;
+    }
+ }

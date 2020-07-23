@@ -1,0 +1,15 @@
+@import url(./__emblems-emblem-city/emblem__emblems-emblem-city.css);
+@import url(./__emblems-emblem-item/emblem__emblems-emblem-item.css);
+@import url(./__emblems-emblem/emblem__emblems-emblem.css);
+@import url(./__emblems/emblem__emblems.css);
+@import url(./__title/emblem__title.css);
+
+.emblem{
+ display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 102px;
+}

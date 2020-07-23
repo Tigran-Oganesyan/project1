@@ -1,0 +1,37 @@
+.comments__container-comment-quote{
+    margin-top: 42px;
+    max-width: 382px;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+}
+
+@media screen and (max-width: 1024px){
+    .comments__container-comment-quote{
+        width: 296px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .comments__container-comment-quote{
+        margin-top: 24px;
+        text-align: left;
+            width: 382px;
+            font-size: 16px;
+    line-height: 23px;
+    order: 2;
+    }
+    }
+
+    @media screen and (max-width: 375px){
+        .comments__container-comment-quote{
+            width: 343px;
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+        .comments__container-comment-quote{
+            width: 288px;
+        }
+    }

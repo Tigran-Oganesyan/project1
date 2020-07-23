@@ -1,0 +1,12 @@
+.additional__container-item{
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 284px;
+    height: 330px;
+}
+
+.additional__container-item:hover{
+    background: black;
+}

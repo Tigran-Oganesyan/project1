@@ -1,0 +1,32 @@
+.comments__container-comment{
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+}
+
+@media screen and (max-width: 1024px){
+    .comments__container-comment{
+        width: 296px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .comments__container-comment{
+        width: 382px;
+        text-align: center;
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .comments__container-comment{
+        width: 343px;
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .comments__container-comment{
+        width: 288px;
+    }
+}
